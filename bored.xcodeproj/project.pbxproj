@@ -19,6 +19,8 @@
 		240E633719AD3FBB00243EE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240E631F19AD3FBB00243EE9 /* UIKit.framework */; };
 		240E633F19AD3FBB00243EE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 240E633D19AD3FBB00243EE9 /* InfoPlist.strings */; };
 		240E634119AD3FBB00243EE9 /* boredTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240E634019AD3FBB00243EE9 /* boredTests.m */; };
+		240E634B19AD413600243EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240E634A19AD413600243EE9 /* Main.storyboard */; };
+		240E634E19AD416F00243EE9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240E634D19AD416F00243EE9 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		240E633C19AD3FBB00243EE9 /* boredTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boredTests-Info.plist"; sourceTree = "<group>"; };
 		240E633E19AD3FBB00243EE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		240E634019AD3FBB00243EE9 /* boredTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boredTests.m; sourceTree = "<group>"; };
+		240E634A19AD413600243EE9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		240E634C19AD416F00243EE9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../FirstViewController.h; sourceTree = "<group>"; };
+		240E634D19AD416F00243EE9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				240E632A19AD3FBB00243EE9 /* AppDelegate.h */,
 				240E632B19AD3FBB00243EE9 /* AppDelegate.m */,
+				240E634A19AD413600243EE9 /* Main.storyboard */,
+				240E634C19AD416F00243EE9 /* FirstViewController.h */,
+				240E634D19AD416F00243EE9 /* FirstViewController.m */,
 				240E632D19AD3FBB00243EE9 /* Images.xcassets */,
 				240E632219AD3FBB00243EE9 /* Supporting Files */,
 			);
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240E634B19AD413600243EE9 /* Main.storyboard in Resources */,
 				240E632619AD3FBB00243EE9 /* InfoPlist.strings in Resources */,
 				240E632E19AD3FBB00243EE9 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240E632C19AD3FBB00243EE9 /* AppDelegate.m in Sources */,
+				240E634E19AD416F00243EE9 /* FirstViewController.m in Sources */,
 				240E632819AD3FBB00243EE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
